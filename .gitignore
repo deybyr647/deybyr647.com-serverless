@@ -16,6 +16,8 @@ build
 # misc
 .DS_Store
 *.pem
+.idea/
+.fleet/
 
 # debug
 npm-debug.log*
