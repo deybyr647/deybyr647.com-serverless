@@ -1,0 +1,38 @@
+/*
+$celadonGreen: #21897e;
+$keppel: #3ba99c;
+$mediumTurquoise: #69d1c5;
+$aero: #7ebce6;
+$mediumPurple: #8980f5;
+
+
+$custom-colors: (
+  "celadon": $celadonGreen,
+  "keppel": $keppel,
+  "turquoise": $mediumTurquoise,
+  "aero": $aero,
+  "purple": $mediumPurple,
+);
+
+$navbar-item-hover-background-color: $keppel;
+*/
+
+$gray: #48474a;
+$blue: #1f92a2;
+$green: #a2c1c2;
+$white: #edf3f5;
+$purple: #8980f5;
+
+$custom-colors: (
+  "gray": $gray,
+  "blue": $blue,
+  "green": $green,
+  "white": $white,
+  "purple": $purple,
+);
+
+$footer-padding: 1.4rem;
+$navbar-item-hover-background-color: $purple;
+
+@import "bulma/bulma";
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
