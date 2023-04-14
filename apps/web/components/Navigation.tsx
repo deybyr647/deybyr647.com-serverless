@@ -56,7 +56,7 @@ const Navigation = () => {
 
           <Link
             className={"navbar-item has-text-white"}
-            href={"/Deyby_Resume.pdf"}
+            href={"/Deyby Rodriguez - Resume.pdf"}
             target={"_blank"}
             rel={"noreferrer noopener"}
           >
