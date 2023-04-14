@@ -6,8 +6,13 @@ type Data = {
 };
 
 export default function handler(
-  req: NextApiRequest,
-  res: NextApiResponse<Data>
+  request: NextApiRequest,
+  response: NextApiResponse
 ) {
-  res.status(200).json({ name: "John Doe" });
+  response.status(200).json({
+    body: request.body,
+    query: request.query,
+    cookies: request.cookies,
+    name: "Deyby Rodriguez",
+  });
 }
