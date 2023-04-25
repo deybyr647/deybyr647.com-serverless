@@ -1,6 +1,6 @@
 import client from "@/util/mongo-config";
 import { Collection } from "mongodb";
-import { Project } from "tsconfig/Projects";
+import { Project } from "./Project";
 
 const dbName: string = "deybyr647-v4";
 const db = client.db(dbName);
