@@ -12,7 +12,7 @@ const nextConfig = {
         source: "/projects",
         destination: "/api/projects",
         permanent: false,
-      }
+      },
     ];
   },
 };
