@@ -7,7 +7,7 @@ export interface Project {
   image: string;
   logo: string;
   demo: string;
-  "short-description": string;
+  tagline: string;
   description: string;
   tags: string[];
 }
